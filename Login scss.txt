@@ -1,0 +1,111 @@
+.mains
+{
+	background-color: #F0F2F5;
+}
+
+.contain
+{
+	padding-top: 10px;
+	margin-left: 450px;
+	padding-bottom: 200px;
+}
+
+.image
+{
+	margin-left: 180px;
+	margin-top: 30px;
+}
+
+.forms p
+{
+	margin-left: 130px;
+	font-weight: 500;
+}
+
+.forms
+{
+	margin-top: -100px;
+}
+
+.main-forms
+{
+	margin-bottom: 0px;
+	margin-top: -150px;
+}
+
+.forms
+{
+	background-color: white;
+	border-radius: 8px;
+	margin: 180px 0 0 80px;
+	margin-bottom: 0px;
+	padding: 20px 0 28px;
+	width: 396px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+
+	
+}
+
+.email ,.password
+{
+	padding: 14px 16px;
+	margin: 0 0 10px 15px;
+	width: 330px;
+	font-size: 17px;
+	height: 22px;
+	text-transform: none;
+	border: 1px solid #dddfe2;
+	background: #FFFFFF repeat-x;
+	border-radius: 6px;
+}
+
+.login
+{
+	background-color: #1977f2;
+	border-radius: 6px;
+	margin: 10px 0 15px 15px;
+	border: none;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 48px;
+	padding: 0px 16px;
+	width: 364px;
+	color: white;
+
+
+}
+
+.create
+{
+	font-family: inherit;
+	border: none;
+	border-radius: 6px;
+	font-size: 17px;
+	font-weight: 600;
+	line-height: 48px;
+	padding: 0 16px;
+	text-decoration: none;
+	white-space: nowrap;
+	display: inline-block;
+	background-color: #42b72a;
+	color: white;
+}
+
+.forgotpassword
+{
+	text-align: center;
+	align-items: center;
+	
+	margin: 0 0 10px 0px;
+	margin-left: 130px;
+	font-size: 14px;
+	font-weight: 500;
+	text-decoration: none;
+	text-align: center;
+	line-height: 1.34px;
+	font-family: inherit;
+
+}
+
+
+
