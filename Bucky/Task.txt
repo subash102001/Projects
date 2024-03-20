@@ -1,0 +1,312 @@
+Date 4/3/24
+
+1.Keywords
+
+if,non,break,except,in,rase,false,await,else,import,pass,and,continoue,far,lambda,try,true,class,finally,is,return,as,def,from,non-local,while,async,elif,not,with,assert,del,global,or,yield
+2.2 variables +,-,*,/
+2.ans---
+a = 23
+print (a)
+b = 7
+print (b)
+print (a+b)
+print (a-b)
+print (a*b)
+print (a/b)
+output--
+23
+7
+30
+16
+161
+3.2857142857142856
+
+
+reverse order---
+fruits = ['apple','goa','mango']
+fruits.reverse()
+print(fruits)
+output--['mango', 'goa', 'apple']
+
+
+random number---
+import random
+num = random.random()
+print(num)
+output---0.5050852202171703
+
+
+
+reverse a number
+num = 1234
+reversed_num = 0
+while num !=0:
+    digit = num % 10
+    reversed_num = reversed_num * 10 + digit
+    num //=10
+
+print("Reversed Number:"+ str(reversed_num)) 
+output---Reversed Number:4321
+
+
+anagrams in python
+def check (s1,s2):
+    if (sorted(s1)==sorted(s2)):
+        print("The strings are anagrams.")
+    else:
+        print("The strings aren't anagram.")    
+s1 ="listen"        
+s2 ="silent"
+check(s1,s2)
+output--9
+23
+7
+30
+16
+161
+3.2857142857142856
+0
+yellow
+ok
+23
+avengers
+7
+-7
+0
+0.0
+0
+30
+['mango', 'goa', 'apple']
+0.5050852202171703
+Reversed Number:4321
+654321
+The strings are anagrams.
+
+5/3/24
+
+Data Types
+1.Numbers
+2.string
+3.boolean
+4.none
+
+int---integer
+float-- decimal points
+complex -- real + imaginary number
+
+ Today Task
+ 
+escape sequences 
+type casting
+
+
+escape sequences---
+\\
+\'
+\"
+\n
+\t
+\r
+\b 
+\f 
+\ooo
+\xhh
+
+type casting---
+
+int()
+float()
+str()
+complex()
+nonetype()
+
+6\3\24
+Arithmetic operator
+comparision/relational operator
+logical/boolean operator
+assignment operator
+membership operator
+identtity operator
+bitwise operator
+
+Name = input("enter your name:")
+
+height =float(input("Enter the height in cm:"))
+weight=float(input("Enter the weight in kg:"))
+print(weight/height**2)
+
+
+7/3/24
+comparision/relational operator
+<, >, <=,>=,==,!=
+logical operator
+AND
+OR
+NOT
+Assignment value
+=,+=,-=,*
+Identity operator
+is,is not
+membership operator
+in, not in
+
+8/3/24
+Task---
+shift operator (left adn right)
+
+
+Task 1 ---BMI2.0
+Name = input("Enter your name:")
+height =float(input("Enter the height in cm:"))
+weight=float(input("Enter the weight in kg:"))
+bmi = round(weight/height**2,2)
+
+print(f"Hi,{Name} your weight is {weight}kg and your height is {height}m.so,your bmi is {bmi}")
+
+if bmi>20:
+    print(f"your bmi{bmi} is normal.")
+elif bmi<25:
+    print(f"{bmi}bmi is overweight.") 
+else:
+    print(f"{bmi}bmi is less weight")
+
+Task 2 ---Leap Year
+import calendar
+def is_leap_year_calendar(year):
+	return calendar.isleap(year)
+year_to_check = 2024
+result_calendar = is_leap_year_calendar(year_to_check)
+print(f"{year_to_check} is a leap year: {result_calendar}")
+
+Task 3 ---odd or even
+a = int(input("enter the value:"))
+if a%2==0:
+    print("even")
+else:
+    print("odd")
+
+12\3\24 Task
+All buildin function
+
+13/3/24
+frame work --> collection of modules
+django
+
+Task---
+athamtic opertaion 7 function 7 documentation 
+a =23
+b = 10
+print(a+b)
+
+a =10
+b=23
+print(a-b)
+
+a = 5
+b=4
+print(a*b)
+
+a= 9
+b = 10
+print(a/b)
+
+a = 5
+b= 5
+print(a**b)
+
+a=23
+b=9
+print(a%b)
+
+a=20
+b=10
+print(a//b)
+
+
+
+14/3/24---
+Exception handling
+try
+except
+finally
+else
+----
+OOPS
+-class
+-objects
+-constractor
+-obectmethods
+-self parameter
+-inheritance
+-type of inheritance
+-polymorphism
+
+Date 4/3/24
+
+1.Keywords
+
+if,non,break,except,in,rase,false,await,else,import,pass,and,continoue,far,lambda,try,true,class,finally,is,return,as,def,from,non-local,while,async,elif,not,with,assert,del,global,or,yield
+2.2 variables +,-,*,/
+2.ans---
+a = 23
+print (a)
+b = 7
+print (b)
+print (a+b)
+print (a-b)
+print (a*b)
+print (a/b)
+output--
+23
+7
+30
+16
+161
+3.2857142857142856
+
+
+reverse order---
+...
+-self parameter
+-inheritance
+-type of inheritance
+-polymorphism
+
+
+18/3/24
+
+single
+multiple
+multilevrl
+hierarchy
+hybrid
+
+19/3/24
+ordere indexed mutable duplicates
+-list[]
+-tuple()
+-set{}
+-dict{:}
+
+access items
+Range of index
+change item value
+
+METHODS
+-insert items
+-Append items
+-extend list
+-remove specified items
+-clear the list
+-loop through a list
+-loop through the index number
+-using a while loop
+-sort list alphanumerically
+-sort decending
+-reverse order
+-copa a list
+-join two list
+
+
+TUPLE()
+-
