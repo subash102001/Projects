@@ -1,25 +1,25 @@
 import React from 'react'
 import { BrowserRouter as Router,Route,Routes } from 'react-router-dom'
-import Hello from './Figma/Hello'
-import Homes from './Homes'
-import Dirty from './Dirty'
-import AdvancedDataTable from './AdvanceDataTable'
+import Login from './Login'
+import Sign from './Sign'
+import Go from './Go'
 
 function App() {
   return (
     <Router>
       <div>
         <Routes>
-          <Route path='/hello' element={<Hello/>}/>
-          <Route path='/home' element={<Homes/>}/>
-          <Route path='/dirty' element={<Dirty/>}/>
-          <Route path='/ad' element={<AdvancedDataTable/>}/>
-         
+          <Route path='/' element={<Login/>}/>
+          <Route path='/sign' element={<Sign/>}/>
+          <Route path='/go' element={<Go/>}/>
+          <Route path='/imo' element={<Imo/>}/>
+          
+          
+          
         </Routes>
       </div>
-
     </Router>
-   
+    
   )
 }
 
