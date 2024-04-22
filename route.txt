@@ -1,3 +1,0 @@
-scss--- npm install scss
-
-route--npm install react-router-dom

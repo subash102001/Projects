@@ -1,0 +1,32 @@
+\2\24
+ react can't create components
+
+rfce--reacte functional export component
+
+
+To download----
+simple react snippets
+Es7+ reac/
+prettier
+
+--->react routes
+
+
+ npm install react-router-dom
+
+
+router
+rout
+routers
+
+npm install sass
+
+npm install react-router-dom
+
+
+
+
+12/2/24
+
+no routes in common file
+
