@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Camera with Flash</title>
+</head>
+<body>
+    <h2>Camera with Flash</h2>
+    
+    <button id="captureButton">Capture Photo</button>
+    <button id="flashButton">Toggle Flash</button>
+    <canvas id="canvas" width="320" height="240"></canvas>
+
+    <script>
+        let useFlash = false;
+        
+        const canvasElement = document.getElementById('canvas');
+        const captureButton = document.getElementById('captureButton');
+        const flashButton = document.getElementById('flashButton');
+
+    
+        flashButton.onclick = () => {
+            useFlash = !useFlash;
+            // Simulate flash by changing screen brightness, etc.
+            // Actual flash handling depends on hardware APIs, which browsers may not support directly.
+            if (useFlash) {
+                document.body.style.backgroundColor = 'white'; // Simulate flash light
+            } else {
+                document.body.style.backgroundColor = 'black'; // Turn off flash simulation
+            }
+        };
+
+        captureButton.onclick = () => {
+            const context = canvasElement.getContext('2d');
+            context.drawImage(videoElement, 0, 0, canvasElement.width, canvasElement.height);
+        };
+    </script>
+</body>
+</html>
